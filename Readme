@@ -1,0 +1,53 @@
+# FraudLens: AI-Powered Fraud Detection & Risk Intelligence Platform
+
+> 🚧 **Status: In Progress**
+
+FraudLens is an end-to-end fraud analytics platform built on the PaySim
+mobile-money transaction dataset (~6.36M rows, 0.13% fraud). It covers data
+engineering, analytics, machine learning, and an LLM-based investigator agent.
+
+## Goals
+
+- Build an ETL pipeline with pandas, NumPy, and PySpark
+- Store and query data on AWS (S3, Athena)
+- Analyze fraud patterns with SQL and a Power BI dashboard
+- Detect fraud with Random Forest, Isolation Forest, and a TensorFlow autoencoder
+- Segment accounts with K-Means and validate patterns with hypothesis tests
+- Build an LLM agent (SQL + scoring tools) that investigates accounts and exports an Excel case report
+- Implement the Union-Find fraud-ring detector in Java
+
+## Tech Stack
+
+Python, SQL, Java (basic), PySpark, pandas, NumPy, scikit-learn,
+TensorFlow, Power BI, Excel, AWS, Git
+
+## Dataset
+
+PaySim synthetic mobile-money transactions (Kaggle).
+
+## Progress
+
+- [x] Repository setup
+- [ ] Data cleaning and EDA
+- [ ] SQL analytics and indexing
+- [ ] PySpark pipeline
+- [ ] AWS storage (S3, Athena)
+- [ ] ML models and evaluation
+- [ ] Power BI dashboard
+- [ ] LLM investigator agent
+- [ ] Excel case report
+- [ ] Java ring detector
+
+## Project Structure (planned)
+
+fraudlens/
+├── data/
+├── sql/
+├── src/
+├── notebooks/
+├── tests/
+└── README.md
+
+## Author
+
+[Your Name] | [LinkedIn] | [Email]
